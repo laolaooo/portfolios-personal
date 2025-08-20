@@ -1,2 +1,4 @@
-# portfolios-
-for resume and projects
+# portfolios-personal
+
+  website portfolio resume
+  
