@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>Laurence Samson Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <!-- Font Awesome -->
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
+            integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" 
+        />
+</head>
+
+<body>
+<!-- Front Left -->
+<div class="container">
+  <div class="left">
+    <div class="nav-left">
+      <div class="about-box">
+      <h1>Laurence II Samson</h1>
+      <h2>Fresh Graduate | </h2>
+      <p>
+         I am a recent Computer Engineering graduate from Bohol Island State University – Main Campus, with a foundation in <strong> software development, systems design, and emerging technologies </strong>.
+        I am <i>passionate about creating practical solutions and continually growing as a developer</i>.</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/lao.laoo/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/laolaooo" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.facebook.com/lao.laooo/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </div> 
+</div>
+  <!----Home---------->
+    <section id="home">
+        <nav class="navbar">
+        <!-- Logo now links to top of page -->
+        <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Me</a>
+        </div>
+      </nav>
+    </section>
+  <!-- Front Right -->
+  <div class="right">
+    <img src="photos/cropped_circle_formal.png" alt="Laurence II Samson" class="glow-right" />
+  </div>
+</div>
+    <section id="skills">
+  <h1>Skills</h1>
+  <div class="skills-bars">
+    <div class="skill-bar" data-width="85">
+      <span class="skill-label"><i class="fa-brands fa-css"></i> CSS</span>
+      <div class="bar-bg">
+        <div class="bar-fill"></div>
+      </div>
+      <span class="skill-rating">85%</span>
+    </div>
+
+    <div class="skill-bar" data-width="90">
+      <span class="skill-label"><i class="fa-brands fa-html5"></i> HTML5</span>
+      <div class="bar-bg">
+        <div class="bar-fill"></div>
+      </div>
+      <span class="skill-rating">90%</span>
+    </div>
+
+    <div class="skill-bar" data-width="55">
+      <span class="skill-label"><i class="fa-brands fa-js"></i> JavaScript</span>
+      <div class="bar-bg">
+        <div class="bar-fill"></div>
+      </div>
+      <span class="skill-rating">55%</span>
+    </div>
+    
+    <div class="skill-bar" data-width="45">
+      <span class="skill-label"><i class="fa-brands fa-figma"></i> Figma</span>
+      <div class="bar-bg">
+        <div class="bar-fill"></div>
+      </div>
+      <span class="skill-rating">45%</span>
+    </div>
+
+    <div class="skill-bar" data-width="80">
+      <span class="skill-label"><i class="fa-brands fa-github"></i> Github</span>
+      <div class="bar-bg">
+        <div class="bar-fill"></div>
+      </div>
+      <span class="skill-rating">80%</span>
+    </div>
+</section>
+      <!-----------PORTFOLIO------------->
+    <section id="portfolio">
+  <h1>Portfolio and Experiences</h1>
+  <div class="projects-list">
+    <div class="project-box">
+      <h3 class="intern-date">Internship (Feb - March 2025)</h3>
+      <p>Developed a church website login functionality to handle inquiries related to birth and death certifications, including database integration for record management.
+      Also learned how to use GitHub for version control, efficiently managing, editing and updating project code.</p>
+    </div>
+    <div class="project-box">
+      <h3>Thesis</h3>
+      <p>Bunsod Trap Catcher Sorter: A Computer Vision Based Fish Species and Size Separator</p>
+    </div>
+    <div class="project-box">
+      <h3>Software Engineering and Design</h3>
+      <p>Audio-to-Text application with voice recorder and voice command (english)</p>
+    </div>
+    <div class="project-box">
+      <h3>Microprocessor System</h3>
+      <p>Built a Sumo-bot and a Pathfinder system</p>
+    </div>
+  </div>
+</section>
+    <section id="contact">
+  <h1>Contact Me</h1>
+  <div class="contact-box">
+    <form id="contact-form" action="https://formspree.io/f/mrblwllp" method="POST">
+      <label for="user-email">Your Email:</label>
+      <input type="email" id="user-email" name="email" required placeholder="your@email.com">
+
+      <label for="user-message">Your Message:</label>
+      <textarea id="user-message" name="message" rows="6" required placeholder="Type your message here..."></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <div id="thank-you-message" style="display:none;">
+      <h3 class="fade-in">Thank you for messaging!</h3>
+      <button id="send-another" class="send-another-btn">Send another message</button>
+    </div>
+    <div class="contact-info">
+      <h3>You Can Also Contact Me Here:</h3>
+      <p>GitHub: <a href="https://github.com/laolaooo" target="_blank">laolaooo</a></p>
+      <p>Facebook: <a href="https://www.facebook.com/lao.laooo/" target="_blank">lao.laooo</a></p>
+      <p>Contact Number: 09661654912</p>
+    </div>
+  </div>
+</section>
+
+  <script src="main.js"></script>
+</body>
+</html>
